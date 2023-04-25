@@ -34,14 +34,15 @@ int rowCount = 0;
 
 void setup() {
 
-  size(1950, 1080);
+  size(2000, 1080);
   //background(0);
 
-  table = loadTable("../../data/csv/temporalEasy.csv", "header");
+  table = loadTable("../../data/csv/temporalDifficult.csv", "header");
 
   //println(table.getRowCount() + " total rows in table");
   //println(table);
   table.removeColumn(0); //Remove time column
+  delay(2000);
 }
 
 void draw() {

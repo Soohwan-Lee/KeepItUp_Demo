@@ -1,2 +1,2 @@
-# YouCanDoIt_Demo
-This is YoucanDoIt Project
+# KeepItUp_Demo
+This is KeepItUp Project
